@@ -57,6 +57,7 @@
 	</dependencyManagement>
 
 	<build>
+		<finalName>fastfood-config-server</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -72,5 +73,6 @@
 			</plugin>
 		</plugins>
 	</build>
+
 
 </project>

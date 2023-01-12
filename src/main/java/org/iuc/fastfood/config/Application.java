@@ -2,12 +2,15 @@ package org.iuc.fastfood.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
-public class FastfoodConfigServerApplication {
+@EnableConfigServer
+
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FastfoodConfigServerApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
